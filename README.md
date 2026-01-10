@@ -7,7 +7,7 @@ This repository serves as a professional log of my chess journey, featuring auto
 ## 🏆 Tournament Highlights
 | Date | Tournament | Rank | Format | Performance / Note |
 | :--- | :--- | :--- | :--- | :--- |
-| <nobr>2026-01-10</nobr> | [YeserEnerji Arena](https://lichess.org/tournament/2DVP366U) | <nobr>6 / 70</nobr> | 4+2 Blitz | First online tournament. Started as 25th seed. Strong start with 6-game winstreak. |
+| `2026-01-10` | [YeserEnerji Arena](https://lichess.org/tournament/2DVP366U) | `6 / 70` | `4+2 Blitz` | First online tournament. Started as 25th seed. Strong start with 6-game winstreak. |
 
 ## 🛠️ Technical Profile & Setup
 - **OS:** Ubuntu 
