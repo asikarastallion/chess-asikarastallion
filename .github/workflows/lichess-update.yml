@@ -1,0 +1,27 @@
+name: Update Lichess Stats
+on:
+  schedule:
+    - cron: '0 0 * * *' # Her gece 00:00'da otomatik çalışır
+  workflow_dispatch: # İstediğin an manuel çalıştırabilirsin
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update Lichess Badge
+        run: |
+          # Bu komut aslında sadece bir tetikleyici. 
+          # Lichess Badge sistemi zaten otomatik güncellenir ancak 
+          # bu workflow reponun "aktif" görünmesini sağlar.
+          echo "Lichess stats checked on $(date)" > last_check.txt
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add last_check.txt
+          git commit -m "Auto-update: Lichess stats checked" || exit 0
+          git push
