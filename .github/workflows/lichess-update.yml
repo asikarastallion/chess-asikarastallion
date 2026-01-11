@@ -2,7 +2,10 @@ name: Update Lichess Stats
 on:
   schedule:
     - cron: '0 0 * * *' # Her gece 00:00'da otomatik çalışır
-  workflow_dispatch: # İstediğin an manuel çalıştırabilirsin
+  workflow_dispatch: # Manuel çalıştırma izni
+
+permissions:
+  contents: write # Botun dosyaları değiştirebilmesi için gerekli izin
 
 jobs:
   update-stats:
@@ -13,9 +16,6 @@ jobs:
 
       - name: Update Lichess Badge
         run: |
-          # Bu komut aslında sadece bir tetikleyici. 
-          # Lichess Badge sistemi zaten otomatik güncellenir ancak 
-          # bu workflow reponun "aktif" görünmesini sağlar.
           echo "Lichess stats checked on $(date)" > last_check.txt
 
       - name: Commit and Push
