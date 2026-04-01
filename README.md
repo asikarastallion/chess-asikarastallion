@@ -33,7 +33,6 @@ This repository serves as a professional log of my chess journey, featuring auto
 
 * **OS**: Ubuntu
 * **Tracking**: Automated via Lichess API integration.
-* **Goals**: Improving tactical awareness and high-pressure decision making, similar to managing autonomous systems (UAVs).
 
 ---
-*“At the board he radiates danger, and even the strongest opponents tend to freeze...”*
+*“Aber beleidigt man nicht eigentlich das Schachspiel, wenn man es ein Spiel nennt? Ist es nicht auch eine Wissenschaft, eine Kunst? Schwebt es nicht, wie der Sarg Mohammeds, zwischen Himmel und Erde, zwischen allen Kategorien, eine einmalige Verbindung aller Gegensätze: uralt und doch ewig neu; mechanisch in seiner Anlage und doch nur wirksam durch die Phantasie; begrenzt in seinem geometrischen Raum und doch unbegrenzt in seinen Kombinationen; sich ständig entwickelnd und doch unbeweglich; ein Denken, das nirgendwohin führt, eine Mathematik, die nichts rechnet, eine Kunst ohne Werke, eine Architektur ohne Substanz – und doch nachweislich dauerhafter in Sein und Werden als alle Bücher und Werke; das einzige Spiel, das allen Völkern und Zeiten gehört und von dem niemand weiß, welcher Gott es auf die Erde gebracht hat, um die Langeweile zu töten, die Sinne zu schärfen und den Geist zu spannen.”*
