@@ -1,12 +1,12 @@
-# Chess Analytics & Performance Tracking ♟️
+# Chess Analytics & Performance Tracking
 
 This repository serves as a professional log of my chess journey, featuring automated stats and manual tournament reports.
 
-## 📊 Lichess Statistics (Automated)
+## Lichess Statistics (Automated)
 
 [![Lichess Badge](https://lichess.org/badge/asikarastallion.svg)](https://lichess.org/@/asikarastallion)
 
-## 🏆 Tournament Highlights
+## Tournament Highlights
 
 <table>
   <thead>
